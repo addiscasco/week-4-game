@@ -1,0 +1,89 @@
+body {
+    background-image:url("congruent_pentagon.png");
+}
+
+
+/*#container {}*/
+
+#crycollect {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+}
+
+#instructdiv {
+    width: 75%;
+}
+#instructions {
+    background-color: #FFEE8F;
+    color: #169801;
+    padding: 20px;
+    margin: 10px;
+}
+
+#num {
+    background-color: #169801;
+    color: rgb(88, 14, 76);
+    padding: 20px;
+    margin: 10px;
+    width: 60px;
+    float: left;
+}
+
+#wlbox {
+    background-color: rgb(10, 224, 240);
+    padding: 20px;
+    margin: 10px;
+    width: 60px;
+    float: left;
+}
+
+#cbox {
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    clear: both;
+}
+
+#c1 {
+    background-color: #FFFFFF;
+    float: left;
+    margin: 10px;
+}
+
+#c2 {
+    background-color: #FFFFFF;
+    float: left;
+    margin: 10px;
+}
+
+#c3 {
+    background-color: #FFFFFF;
+    float: left;
+    margin: 10px;
+}
+
+#c4 {
+    background-color: #FFFFFF;
+    float: left;
+    margin: 10px;
+}
+
+#totalscore {
+    background-color: rgb(61, 175, 132);
+    color: #FFFFFF;
+    float: left;
+    clear: both;
+}
+
+#bottomnum {
+    background-color: rgb(61, 175, 132);
+    color: #FFFFFF;
+    height: 25px;
+    float: left;
+    clear: both;
+    
+}
+
