@@ -1,6 +1,5 @@
 //when document is loaded it will be ready for this function
 $(document).ready(function () {
-
     //function that starts game by setting userScore to 0 and calling the function getRandomNum which is the computer generated number
     function startGame () {
         userScore = 0;
@@ -52,7 +51,7 @@ $(document).ready(function () {
         }
     }
     //creates cpu random number
-    function getRandomNum(min, max) {
+    function getRandomNum(min, max) { 
         //random number generated for game between 19-120
         return Math.floor(Math.random() * (max - min + 1) + min);
     }
@@ -61,7 +60,7 @@ $(document).ready(function () {
         // data is a string and converted into a number with parseInt and set to variable clickedNum
         var clickedNum = parseInt($(this).attr("data"));
 
-        //adds clickedNum to variable addedToPrev
+        //adds clickedNum to variable userScore
         userScore += clickedNum;
         $("#bottomnum").text( userScore);
         console.log(userScore);
@@ -74,7 +73,7 @@ $(document).ready(function () {
             
             startGame();
         }
-        //if added numbersare equal to randomResult then wins++
+        //if added numbers are equal to randomResult then wins++
         else if (userScore === randomResult) {
             wins++;
             $("#wins").text("Wins: " + wins);
